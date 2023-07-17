@@ -1,0 +1,294 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilos para a seção de boas-vindas */
+  .welcome-section {
+    background-color: #ff9800;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .welcome-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-section p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #e64a19;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff5722;
+  }
+  
+  /* Estilos para a seção de módulos em destaque */
+  .featured-modules {
+    padding: 40px 0;
+  }
+  
+  .featured-modules h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .module {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .module:hover {
+    transform: translateY(-5px);
+  }
+  
+  .module img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .module h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .module p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .module-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #e64a19;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .module-link:hover {
+    background-color: #ff5722;
+  }
+  
+  /* Estilos para a seção de depoimentos */
+  .testimonials {
+    background-color: #333;
+    padding: 40px 0;
+  }
+  
+  .testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .testimonial {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial:hover {
+    transform: translateY(-5px);
+  }
+  
+  .testimonial img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .testimonial cite {
+    font-size: 14px;
+    color: #999;
+  }
+  
+  /* Estilos para a seção de recursos adicionais */
+  .additional-resources {
+    padding: 40px 0;
+  }
+  
+  .additional-resources h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .resource {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .resource img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .resource h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .resource p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* Estilos para a seção de contato */
+  .contact-section {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+  }
+  
+  .contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .contact-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e64a19;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ff5722;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+  }
+  
+  footer p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  footer nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease}
